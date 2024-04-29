@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>registratioN</title>
+        <link rel="stylesheet" href="reg.css">
+    </head>
+<body>
+<form method="post"  action="visitor.php">
+    <header>
+        <h2 class="logo">L&T CONSTRUCTION</h2>
+    </header>
+    <div class="wrapper">
+        <div class="scroll-bar">
+        <form action="connects.php" method="post">
+        <div class="form-box login">
+            <h2>VISITOR REGISTRATION</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="people-circle-outline"></ion-icon>
+                    </span>
+                    <input type="text" required name="name">
+                    <label>VISITOR NAME</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <input type="number" required name="pno">
+                    <label>PHONE NO</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="transgender-outline"></ion-icon>
+                    </span>
+                    <input type="text" required name="gender">
+                    <label>GENDER</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="business-outline"></ion-icon>
+                    </span>
+                    <input type="text" required name="company">
+                    <label>VISTOR COMPANY</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="alert-circle-outline"></ion-icon>
+                    </span>
+                    <input type="text" required name="purpose">
+                    <label>PURPOSE</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="time-outline"></ion-icon>
+                    </span>
+                    <input type="text" name="intime" onfocus="(this.type='time')" onblur="if(!this.value) this.type='text'" required>
+                    <label>IN TIME</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="time-outline"></ion-icon>
+                    </span>
+                    <input type="text" name="outtime" onfocus="(this.type='time')" onblur="if(!this.value) this.type='text'" required>
+                    <label>OUT TIME</label>
+                </div>
+                <button type="submit" class="btn">SUBMIT</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</form>
+</body>
+</html>
